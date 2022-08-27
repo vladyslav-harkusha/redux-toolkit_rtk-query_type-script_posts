@@ -9,9 +9,9 @@ export const PostContainer: React.FC = () => {
   });
 
   useEffect(() => {
-    // setTimeout(() => {
-    //   setLimit(3)
-    // }, 2000)
+    setTimeout(() => {
+      setLimit(3)
+    }, 2000)
   }, [])
 
   return (
